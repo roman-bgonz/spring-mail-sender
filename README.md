@@ -73,7 +73,7 @@ curl --location 'http://localhost:8082/spring-mail-sender/v1/sendMessageFile' \
 
 Postman example
 
-![Request](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Request](https://github.com/roman-bgonz/spring-mail-sender/blob/main/fondo.jpg)
 
 ** Note**: If you want to send the message to multiple email addresses you can do it by adding a comma (,) after each address.
 
