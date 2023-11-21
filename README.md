@@ -71,11 +71,21 @@ curl --location 'http://localhost:8082/spring-mail-sender/v1/sendMessageFile' \
 --form 'file=@"/C:/Downloads/fondo.jpg"'
 ```
 
-Postman example
+### Postman example
+
+1. To send file type using postman select Body tab
+2. form-data
+3. Add key (property name) and values
+4. Click in arrow shown in key input
+5. Click on File button from dropdown
+6. Click Select Files button and browse for file
+
+** Note**: If you want to send the message to multiple email addresses you can do it by adding a comma (,) after each address.
+
+![Request](https://github.com/roman-bgonz/spring-mail-sender/blob/main/previousFile.png)
 
 ![Request](https://github.com/roman-bgonz/spring-mail-sender/blob/main/emailFile.png)
 
-** Note**: If you want to send the message to multiple email addresses you can do it by adding a comma (,) after each address.
 
 ## What else can I do?
 
